@@ -11,8 +11,9 @@ print(len(var1))
 """Guardar el primer elemento de la variable `var1` en una variable llamada 
 `apellidos` y el segundo elemento en una llamada `decimales`.
 """
-
-
+apellidos = var1[0]
+decimales = var1[1]
+print(apellidos)
 """Dividir el string contenido en la variable `apellidos` en donde se encuentre el 
 el caracter `,` y guardar el resultado en una variable llamada `apellidos_list`.
 """
