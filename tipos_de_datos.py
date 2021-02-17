@@ -54,12 +54,14 @@ apellido_es_mayuscula=apellido2.islower()
 o de minúsculas a mayúsculas si está en minúsculas y guardarla en `apellido3`.
 """
 apellido3=apellido2.upper()
+#print(apellido3)
 
 
 """Crear variable `a_in_apellido` que contenga la cantidad de letras a que contiene 
 la variable `apellido2`.
 """
-
+a_in_apellido=len(apellido2)
+#print(a_in_apellido)
 
 """Crear variable `apellido_end_ez` que contenga si la variable `apellido2` 
 termina con el string `"ez"`.
